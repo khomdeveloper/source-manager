@@ -1,0 +1,25 @@
+{
+    "name": "valera261104/extended-exception",
+    "description": "Extended exception with logging and translation",
+    "type": "library",
+    "license": "MIT",
+    "version": "1.7",
+    "authors": [
+        {
+            "name": "Valeriy Khom",
+            "email": "khom.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "valera261104/base-class" : ">1.6"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "ExtendedException\\": "Source"
+        }
+    }
+}

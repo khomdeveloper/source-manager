@@ -1,0 +1,22 @@
+{
+    "name": "valera261104/base-class",
+    "description": "Base Class",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Valeriy Khom",
+            "email": "khom.developer@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^9"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseClass\\": "Source"
+        }
+    }
+}
